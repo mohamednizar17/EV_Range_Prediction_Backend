@@ -8,10 +8,10 @@ const app = express();
 app.use(helmet());
 app.use(morgan('tiny'));
 app.use(express.json({ limit: '2mb' }));
-const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || '*';
-const corsOptions = FRONTEND_ORIGIN === '*'
-	? { origin: '*', methods: ['POST','GET','OPTIONS'] }
-	: { origin: FRONTEND_ORIGIN, methods: ['POST','GET','OPTIONS'] };
+const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN;
+const corsOptions = FRONTEND_ORIGIN
+	? { origin: [FRONTEND_ORIGIN, 'null'], methods: ['POST','GET','OPTIONS'], credentials: false }
+	: { origin: true, methods: ['POST','GET','OPTIONS'] };
 app.use(cors(corsOptions));
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
