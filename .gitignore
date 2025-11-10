@@ -1,0 +1,18 @@
+node_modules/
+.env
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.pid
+
+# Editor
+.vscode/
+.idea/
