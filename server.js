@@ -37,7 +37,7 @@ app.post('/api/chat', async (req, res) => {
 	if (!OPENROUTER_API_KEY) return res.status(500).json({ error: 'Server not configured' });
 	try {
 		const { messages = [], model = 'openrouter/auto', temperature = 0.4 } = req.body || {};
-		const systemPrompt = 'You are an expert EV specialist assistant. Provide concise, technically accurate answers about electric vehicle range, charging, efficiency, comparison, battery chemistries, and ownership considerations. Be transparent about assumptions.';
+		const systemPrompt = 'You are a brief EV specialist assistant. Answer in 1-2 sentences maximum. Only provide more detail if the user explicitly asks for it. Focus on range, charging, efficiency, battery chemistry, and comparisons. Be direct and concise.';
 		const payload = {
 			model,
 			messages: [
