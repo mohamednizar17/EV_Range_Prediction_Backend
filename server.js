@@ -70,6 +70,9 @@ app.post('/api/chat', async (req, res) => {
 	}
 });
 
+// Root route for health check
+app.get('/', (req, res) => res.json({ ok: true, service: 'EV Backend', time: Date.now() }));
+
 app.get('/api/health', (req,res)=> res.json({ ok: true, time: Date.now() }));
 
 // 404 for any other routes
