@@ -1,0 +1,109 @@
+[
+  {"name":"Tata Tiago.ev MR","priceUSD":12000,"capacity_kWh":19.2,"range_km_EPA":230,"voltageV":320,"drivetrain":"FWD","mass_kg":1140,"cd":0.33,"frontalArea_m2":2.10,"regen_eff":0.70},
+  {"name":"Tata Tiago.ev LR","priceUSD":14000,"capacity_kWh":24,"range_km_EPA":270,"voltageV":320,"drivetrain":"FWD","mass_kg":1180,"cd":0.33,"frontalArea_m2":2.10,"regen_eff":0.71},
+  {"name":"Tata Tigor EV","priceUSD":15000,"capacity_kWh":26,"range_km_EPA":280,"voltageV":320,"drivetrain":"FWD","mass_kg":1235,"cd":0.32,"frontalArea_m2":2.15,"regen_eff":0.75},
+  {"name":"Tata Punch EV MR","priceUSD":16000,"capacity_kWh":30,"range_km_EPA":300,"voltageV":330,"drivetrain":"FWD","mass_kg":1250,"cd":0.33,"frontalArea_m2":2.20,"regen_eff":0.75},
+  {"name":"Tata Punch EV LR","priceUSD":18000,"capacity_kWh":35,"range_km_EPA":360,"voltageV":330,"drivetrain":"FWD","mass_kg":1290,"cd":0.33,"frontalArea_m2":2.20,"regen_eff":0.75},
+  {"name":"Tata Nexon EV MR","priceUSD":20000,"capacity_kWh":30,"range_km_EPA":300,"voltageV":350,"drivetrain":"FWD","mass_kg":1600,"cd":0.33,"frontalArea_m2":2.45,"regen_eff":0.75},
+  {"name":"Tata Nexon EV LR","priceUSD":24000,"capacity_kWh":40.5,"range_km_EPA":360,"voltageV":350,"drivetrain":"FWD","mass_kg":1650,"cd":0.33,"frontalArea_m2":2.45,"regen_eff":0.75},
+  {"name":"Mahindra XUV400 Pro","priceUSD":21000,"capacity_kWh":34.5,"range_km_EPA":320,"voltageV":350,"drivetrain":"FWD","mass_kg":1540,"cd":0.33,"frontalArea_m2":2.45,"regen_eff":0.75},
+  {"name":"Mahindra XUV400 EL","priceUSD":23000,"capacity_kWh":39.4,"range_km_EPA":360,"voltageV":350,"drivetrain":"FWD","mass_kg":1570,"cd":0.33,"frontalArea_m2":2.45,"regen_eff":0.75},
+  {"name":"MG Comet EV","priceUSD":11000,"capacity_kWh":17.3,"range_km_EPA":180,"voltageV":300,"drivetrain":"RWD","mass_kg":815,"cd":0.36,"frontalArea_m2":1.90,"regen_eff":0.75},
+  {"name":"MG ZS EV","priceUSD":30000,"capacity_kWh":50.3,"range_km_EPA":400,"voltageV":400,"drivetrain":"FWD","mass_kg":1610,"cd":0.31,"frontalArea_m2":2.55,"regen_eff":0.75},
+  {"name":"BYD Atto 3 (India)","priceUSD":38000,"capacity_kWh":60.5,"range_km_EPA":420,"voltageV":400,"drivetrain":"FWD","mass_kg":1750,"cd":0.29,"frontalArea_m2":2.55,"regen_eff":0.75},
+  {"name":"BYD e6 (India)","priceUSD":41000,"capacity_kWh":71.7,"range_km_EPA":450,"voltageV":400,"drivetrain":"FWD","mass_kg":1930,"cd":0.30,"frontalArea_m2":2.75,"regen_eff":0.75},
+  {"name":"Citroën eC3","priceUSD":15500,"capacity_kWh":29.2,"range_km_EPA":260,"voltageV":320,"drivetrain":"FWD","mass_kg":1316,"cd":0.34,"frontalArea_m2":2.30,"regen_eff":0.75},
+  {"name":"Hyundai Kona Electric (India)","priceUSD":34000,"capacity_kWh":39.2,"range_km_EPA":305,"voltageV":400,"drivetrain":"FWD","mass_kg":1535,"cd":0.30,"frontalArea_m2":2.40,"regen_eff":0.75},
+  {"name":"Hyundai IONIQ 5 (India)","priceUSD":55000,"capacity_kWh":72.6,"range_km_EPA":470,"voltageV":800,"drivetrain":"RWD","mass_kg":1890,"cd":0.22,"frontalArea_m2":2.30,"regen_eff":0.80},
+  {"name":"Kia EV6 (India)","priceUSD":73000,"capacity_kWh":77.4,"range_km_EPA":500,"voltageV":800,"drivetrain":"AWD","mass_kg":2060,"cd":0.28,"frontalArea_m2":2.70,"regen_eff":0.80},
+  {"name":"Mercedes EQB (India)","priceUSD":87000,"capacity_kWh":66.5,"range_km_EPA":400,"voltageV":400,"drivetrain":"AWD","mass_kg":2175,"cd":0.29,"frontalArea_m2":2.60,"regen_eff":0.78},
+  {"name":"BMW i4 (India)","priceUSD":77000,"capacity_kWh":83.9,"range_km_EPA":500,"voltageV":400,"drivetrain":"RWD","mass_kg":2050,"cd":0.24,"frontalArea_m2":2.35,"regen_eff":0.80},
+  {"name":"BMW iX1 (India)","priceUSD":66000,"capacity_kWh":66.5,"range_km_EPA":440,"voltageV":400,"drivetrain":"AWD","mass_kg":2010,"cd":0.29,"frontalArea_m2":2.45,"regen_eff":0.78},
+  {"name":"BMW iX (India)","priceUSD":135000,"capacity_kWh":105,"range_km_EPA":520,"voltageV":400,"drivetrain":"AWD","mass_kg":2585,"cd":0.25,"frontalArea_m2":2.80,"regen_eff":0.78},
+  {"name":"Audi Q8 e‑tron (India)","priceUSD":128000,"capacity_kWh":106,"range_km_EPA":500,"voltageV":400,"drivetrain":"AWD","mass_kg":2640,"cd":0.28,"frontalArea_m2":2.85,"regen_eff":0.78},
+  {"name":"Volvo XC40 Recharge (India)","priceUSD":72000,"capacity_kWh":78,"range_km_EPA":400,"voltageV":400,"drivetrain":"AWD","mass_kg":2150,"cd":0.30,"frontalArea_m2":2.60,"regen_eff":0.77},
+  {"name":"Volvo C40 Recharge (India)","priceUSD":75500,"capacity_kWh":78,"range_km_EPA":402,"voltageV":400,"drivetrain":"AWD","mass_kg":2140,"cd":0.29,"frontalArea_m2":2.55,"regen_eff":0.77},
+  {"name":"Porsche Taycan (India)","priceUSD":175000,"capacity_kWh":79,"range_km_EPA":430,"voltageV":800,"drivetrain":"RWD","mass_kg":2140,"cd":0.22,"frontalArea_m2":2.30,"regen_eff":0.82},
+  {"name":"Jaguar I‑PACE (India)","priceUSD":125000,"capacity_kWh":90,"range_km_EPA":377,"voltageV":400,"drivetrain":"AWD","mass_kg":2208,"cd":0.29,"frontalArea_m2":2.65,"regen_eff":0.78},
+
+  {"name":"Tesla Model 3 RWD","priceUSD":38990,"capacity_kWh":57,"range_km_EPA":438,"voltageV":360,"drivetrain":"RWD","mass_kg":1760,"cd":0.23,"frontalArea_m2":2.22,"regen_eff":0.82},
+  {"name":"Tesla Model 3 Long Range","priceUSD":46990,"capacity_kWh":75,"range_km_EPA":576,"voltageV":360,"drivetrain":"AWD","mass_kg":1825,"cd":0.23,"frontalArea_m2":2.22,"regen_eff":0.82},
+  {"name":"Tesla Model 3 Performance","priceUSD":53990,"capacity_kWh":75,"range_km_EPA":507,"voltageV":360,"drivetrain":"AWD","mass_kg":1850,"cd":0.23,"frontalArea_m2":2.22,"regen_eff":0.82},
+  {"name":"Tesla Model Y RWD","priceUSD":44990,"capacity_kWh":60,"range_km_EPA":455,"voltageV":360,"drivetrain":"RWD","mass_kg":1910,"cd":0.24,"frontalArea_m2":2.61,"regen_eff":0.82},
+  {"name":"Tesla Model Y Long Range","priceUSD":49990,"capacity_kWh":75,"range_km_EPA":531,"voltageV":360,"drivetrain":"AWD","mass_kg":1970,"cd":0.23,"frontalArea_m2":2.61,"regen_eff":0.82},
+  {"name":"Tesla Model Y Performance","priceUSD":54990,"capacity_kWh":75,"range_km_EPA":487,"voltageV":360,"drivetrain":"AWD","mass_kg":1990,"cd":0.24,"frontalArea_m2":2.61,"regen_eff":0.82},
+
+  {"name":"Nissan Leaf 40 kWh","priceUSD":28990,"capacity_kWh":40,"range_km_EPA":240,"voltageV":360,"drivetrain":"FWD","mass_kg":1515,"cd":0.28,"frontalArea_m2":2.40,"regen_eff":0.75},
+  {"name":"Nissan Leaf 62 kWh","priceUSD":35990,"capacity_kWh":62,"range_km_EPA":364,"voltageV":360,"drivetrain":"FWD","mass_kg":1736,"cd":0.28,"frontalArea_m2":2.45,"regen_eff":0.75},
+
+  {"name":"Volkswagen ID.3 Pro","priceUSD":34990,"capacity_kWh":58,"range_km_EPA":420,"voltageV":400,"drivetrain":"RWD","mass_kg":1730,"cd":0.27,"frontalArea_m2":2.40,"regen_eff":0.78},
+  {"name":"Volkswagen ID.4 Pro","priceUSD":39435,"capacity_kWh":82,"range_km_EPA":443,"voltageV":400,"drivetrain":"RWD","mass_kg":2040,"cd":0.28,"frontalArea_m2":2.65,"regen_eff":0.78},
+  {"name":"Volkswagen ID.4 AWD","priceUSD":42435,"capacity_kWh":82,"range_km_EPA":410,"voltageV":400,"drivetrain":"AWD","mass_kg":2100,"cd":0.29,"frontalArea_m2":2.65,"regen_eff":0.78},
+
+  {"name":"Hyundai IONIQ 5 RWD","priceUSD":41950,"capacity_kWh":58,"range_km_EPA":384,"voltageV":800,"drivetrain":"RWD","mass_kg":1890,"cd":0.288,"frontalArea_m2":2.75,"regen_eff":0.80},
+  {"name":"Hyundai IONIQ 5 AWD","priceUSD":50950,"capacity_kWh":77,"range_km_EPA":434,"voltageV":800,"drivetrain":"AWD","mass_kg":2060,"cd":0.29,"frontalArea_m2":2.75,"regen_eff":0.80},
+  {"name":"Hyundai IONIQ 6 RWD","priceUSD":45950,"capacity_kWh":77,"range_km_EPA":581,"voltageV":800,"drivetrain":"RWD","mass_kg":1910,"cd":0.21,"frontalArea_m2":2.25,"regen_eff":0.82},
+
+  {"name":"Kia EV6 RWD","priceUSD":42990,"capacity_kWh":58,"range_km_EPA":400,"voltageV":800,"drivetrain":"RWD","mass_kg":1890,"cd":0.28,"frontalArea_m2":2.70,"regen_eff":0.80},
+  {"name":"Kia EV6 AWD","priceUSD":52990,"capacity_kWh":77.4,"range_km_EPA":454,"voltageV":800,"drivetrain":"AWD","mass_kg":2050,"cd":0.29,"frontalArea_m2":2.70,"regen_eff":0.80},
+
+  {"name":"BYD Dolphin","priceUSD":25000,"capacity_kWh":60,"range_km_EPA":390,"voltageV":400,"drivetrain":"FWD","mass_kg":1500,"cd":0.30,"frontalArea_m2":2.30,"regen_eff":0.76},
+  {"name":"BYD Seagull","priceUSD":11000,"capacity_kWh":38,"range_km_EPA":300,"voltageV":350,"drivetrain":"FWD","mass_kg":1120,"cd":0.32,"frontalArea_m2":2.05,"regen_eff":0.76},
+  {"name":"BYD Atto 3","priceUSD":38000,"capacity_kWh":60.5,"range_km_EPA":420,"voltageV":400,"drivetrain":"FWD","mass_kg":1750,"cd":0.29,"frontalArea_m2":2.55,"regen_eff":0.76},
+  {"name":"BYD Seal","priceUSD":42000,"capacity_kWh":82,"range_km_EPA":520,"voltageV":700,"drivetrain":"RWD","mass_kg":2050,"cd":0.22,"frontalArea_m2":2.35,"regen_eff":0.80},
+
+  {"name":"Chevrolet Bolt EV","priceUSD":26995,"capacity_kWh":65,"range_km_EPA":417,"voltageV":400,"drivetrain":"FWD","mass_kg":1625,"cd":0.31,"frontalArea_m2":2.35,"regen_eff":0.75},
+  {"name":"Chevrolet Bolt EUV","priceUSD":27995,"capacity_kWh":65,"range_km_EPA":397,"voltageV":400,"drivetrain":"FWD","mass_kg":1666,"cd":0.31,"frontalArea_m2":2.46,"regen_eff":0.75},
+
+  {"name":"Ford Mustang Mach‑E SR RWD","priceUSD":42995,"capacity_kWh":72,"range_km_EPA":402,"voltageV":355,"drivetrain":"RWD","mass_kg":2040,"cd":0.30,"frontalArea_m2":2.73,"regen_eff":0.78},
+  {"name":"Ford Mustang Mach‑E ER AWD","priceUSD":52995,"capacity_kWh":91,"range_km_EPA":476,"voltageV":355,"drivetrain":"AWD","mass_kg":2230,"cd":0.30,"frontalArea_m2":2.73,"regen_eff":0.78},
+
+  {"name":"Renault Zoe R135","priceUSD":30000,"capacity_kWh":52,"range_km_EPA":350,"voltageV":400,"drivetrain":"FWD","mass_kg":1502,"cd":0.32,"frontalArea_m2":2.20,"regen_eff":0.75},
+  {"name":"Renault Megane E‑Tech 60","priceUSD":38000,"capacity_kWh":60,"range_km_EPA":450,"voltageV":400,"drivetrain":"FWD","mass_kg":1710,"cd":0.28,"frontalArea_m2":2.35,"regen_eff":0.75},
+  {"name":"Renault Scenic E‑Tech 87","priceUSD":45000,"capacity_kWh":87,"range_km_EPA":620,"voltageV":400,"drivetrain":"FWD","mass_kg":1940,"cd":0.27,"frontalArea_m2":2.55,"regen_eff":0.76},
+
+  {"name":"Peugeot e‑208","priceUSD":31000,"capacity_kWh":51,"range_km_EPA":350,"voltageV":400,"drivetrain":"FWD","mass_kg":1480,"cd":0.31,"frontalArea_m2":2.20,"regen_eff":0.75},
+  {"name":"Peugeot e‑2008","priceUSD":33000,"capacity_kWh":54,"range_km_EPA":345,"voltageV":400,"drivetrain":"FWD","mass_kg":1610,"cd":0.33,"frontalArea_m2":2.35,"regen_eff":0.75},
+
+  {"name":"Opel Corsa‑e","priceUSD":30000,"capacity_kWh":51,"range_km_EPA":330,"voltageV":400,"drivetrain":"FWD","mass_kg":1470,"cd":0.31,"frontalArea_m2":2.20,"regen_eff":0.75},
+  {"name":"Opel Mokka‑e","priceUSD":32000,"capacity_kWh":54,"range_km_EPA":340,"voltageV":400,"drivetrain":"FWD","mass_kg":1600,"cd":0.33,"frontalArea_m2":2.35,"regen_eff":0.75},
+  {"name":"Opel Astra Electric","priceUSD":36000,"capacity_kWh":54,"range_km_EPA":410,"voltageV":400,"drivetrain":"FWD","mass_kg":1680,"cd":0.27,"frontalArea_m2":2.35,"regen_eff":0.75},
+
+  {"name":"Skoda Enyaq iV 60","priceUSD":39990,"capacity_kWh":62,"range_km_EPA":410,"voltageV":400,"drivetrain":"RWD","mass_kg":1970,"cd":0.26,"frontalArea_m2":2.62,"regen_eff":0.78},
+  {"name":"Skoda Enyaq iV 80","priceUSD":45990,"capacity_kWh":82,"range_km_EPA":520,"voltageV":400,"drivetrain":"RWD","mass_kg":2050,"cd":0.26,"frontalArea_m2":2.62,"regen_eff":0.78},
+  {"name":"Skoda Enyaq Coupe iV 80","priceUSD":47990,"capacity_kWh":82,"range_km_EPA":535,"voltageV":400,"drivetrain":"RWD","mass_kg":2060,"cd":0.25,"frontalArea_m2":2.58,"regen_eff":0.78},
+
+  {"name":"BMW i3s","priceUSD":44900,"capacity_kWh":42,"range_km_EPA":246,"voltageV":360,"drivetrain":"RWD","mass_kg":1365,"cd":0.29,"frontalArea_m2":2.10,"regen_eff":0.80},
+  {"name":"BMW i4 eDrive40","priceUSD":56900,"capacity_kWh":83,"range_km_EPA":494,"voltageV":400,"drivetrain":"RWD","mass_kg":2050,"cd":0.24,"frontalArea_m2":2.35,"regen_eff":0.80},
+  {"name":"BMW i4 M50","priceUSD":67900,"capacity_kWh":83,"range_km_EPA":435,"voltageV":400,"drivetrain":"AWD","mass_kg":2215,"cd":0.25,"frontalArea_m2":2.35,"regen_eff":0.80},
+  {"name":"BMW i5 eDrive40","priceUSD":67900,"capacity_kWh":84,"range_km_EPA":520,"voltageV":400,"drivetrain":"RWD","mass_kg":2140,"cd":0.23,"frontalArea_m2":2.45,"regen_eff":0.80},
+
+  {"name":"Mercedes EQA 250","priceUSD":56900,"capacity_kWh":66.5,"range_km_EPA":426,"voltageV":400,"drivetrain":"FWD","mass_kg":1980,"cd":0.28,"frontalArea_m2":2.45,"regen_eff":0.78},
+  {"name":"Mercedes EQB 300 4MATIC","priceUSD":62400,"capacity_kWh":70.5,"range_km_EPA":400,"voltageV":400,"drivetrain":"AWD","mass_kg":2200,"cd":0.29,"frontalArea_m2":2.60,"regen_eff":0.78},
+  {"name":"Mercedes EQE 350+","priceUSD":73900,"capacity_kWh":90,"range_km_EPA":560,"voltageV":400,"drivetrain":"RWD","mass_kg":2330,"cd":0.24,"frontalArea_m2":2.45,"regen_eff":0.78},
+  {"name":"Mercedes EQS 450+","priceUSD":104990,"capacity_kWh":108,"range_km_EPA":640,"voltageV":400,"drivetrain":"RWD","mass_kg":2480,"cd":0.20,"frontalArea_m2":2.50,"regen_eff":0.80},
+
+  {"name":"Audi Q4 e‑tron 40","priceUSD":52900,"capacity_kWh":77,"range_km_EPA":435,"voltageV":400,"drivetrain":"RWD","mass_kg":2100,"cd":0.29,"frontalArea_m2":2.60,"regen_eff":0.78},
+  {"name":"Audi Q4 e‑tron 50 quattro","priceUSD":55900,"capacity_kWh":77,"range_km_EPA":410,"voltageV":400,"drivetrain":"AWD","mass_kg":2180,"cd":0.30,"frontalArea_m2":2.60,"regen_eff":0.78},
+  {"name":"Audi Q8 e‑tron 55","priceUSD":74900,"capacity_kWh":106,"range_km_EPA":496,"voltageV":400,"drivetrain":"AWD","mass_kg":2640,"cd":0.28,"frontalArea_m2":2.85,"regen_eff":0.78},
+
+  {"name":"Polestar 2 Standard RWD","priceUSD":49900,"capacity_kWh":69,"range_km_EPA":435,"voltageV":400,"drivetrain":"RWD","mass_kg":1990,"cd":0.28,"frontalArea_m2":2.40,"regen_eff":0.78},
+  {"name":"Polestar 2 Long Range AWD","priceUSD":57900,"capacity_kWh":78,"range_km_EPA":480,"voltageV":400,"drivetrain":"AWD","mass_kg":2080,"cd":0.28,"frontalArea_m2":2.40,"regen_eff":0.78},
+
+  {"name":"Volvo EX30 (RWD)","priceUSD":35900,"capacity_kWh":69,"range_km_EPA":450,"voltageV":400,"drivetrain":"RWD","mass_kg":1750,"cd":0.27,"frontalArea_m2":2.35,"regen_eff":0.78},
+
+  {"name":"Lucid Air Pure RWD","priceUSD":77400,"capacity_kWh":92,"range_km_EPA":660,"voltageV":900,"drivetrain":"RWD","mass_kg":2030,"cd":0.21,"frontalArea_m2":2.35,"regen_eff":0.82},
+  {"name":"Lucid Air Touring AWD","priceUSD":89900,"capacity_kWh":92,"range_km_EPA":650,"voltageV":900,"drivetrain":"AWD","mass_kg":2140,"cd":0.21,"frontalArea_m2":2.35,"regen_eff":0.82},
+
+  {"name":"Toyota bZ4X FWD","priceUSD":42990,"capacity_kWh":71,"range_km_EPA":405,"voltageV":355,"drivetrain":"FWD","mass_kg":1930,"cd":0.29,"frontalArea_m2":2.55,"regen_eff":0.75},
+  {"name":"Subaru Solterra AWD","priceUSD":44990,"capacity_kWh":71,"range_km_EPA":360,"voltageV":355,"drivetrain":"AWD","mass_kg":2015,"cd":0.30,"frontalArea_m2":2.60,"regen_eff":0.75},
+
+  {"name":"Honda e","priceUSD":32000,"capacity_kWh":36,"range_km_EPA":210,"voltageV":350,"drivetrain":"RWD","mass_kg":1540,"cd":0.30,"frontalArea_m2":2.10,"regen_eff":0.78},
+  {"name":"MINI Cooper SE","priceUSD":30900,"capacity_kWh":33,"range_km_EPA":183,"voltageV":350,"drivetrain":"FWD","mass_kg":1365,"cd":0.32,"frontalArea_m2":2.05,"regen_eff":0.75},
+  {"name":"Fiat 500e","priceUSD":28900,"capacity_kWh":42,"range_km_EPA":260,"voltageV":350,"drivetrain":"FWD","mass_kg":1350,"cd":0.31,"frontalArea_m2":2.05,"regen_eff":0.75},
+  {"name":"Smart #1","priceUSD":39000,"capacity_kWh":66,"range_km_EPA":420,"voltageV":400,"drivetrain":"RWD","mass_kg":1820,"cd":0.29,"frontalArea_m2":2.35,"regen_eff":0.78},
+
+  {"name":"MG4 (51 kWh)","priceUSD":28000,"capacity_kWh":51,"range_km_EPA":350,"voltageV":400,"drivetrain":"RWD","mass_kg":1600,"cd":0.27,"frontalArea_m2":2.40,"regen_eff":0.78},
+  {"name":"MG4 (64 kWh)","priceUSD":32000,"capacity_kWh":64,"range_km_EPA":435,"voltageV":400,"drivetrain":"RWD","mass_kg":1685,"cd":0.27,"frontalArea_m2":2.45,"regen_eff":0.78},
+  {"name":"MG5 Estate","priceUSD":30000,"capacity_kWh":61,"range_km_EPA":400,"voltageV":400,"drivetrain":"FWD","mass_kg":1570,"cd":0.28,"frontalArea_m2":2.35,"regen_eff":0.75}
+]

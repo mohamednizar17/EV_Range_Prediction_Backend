@@ -3,8 +3,19 @@ import cors from 'cors';
 import helmet from 'helmet';
 import fetch from 'node-fetch';
 import morgan from 'morgan';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 
 const app = express();
+const __dirname = dirname(fileURLToPath(import.meta.url));
+let EV_DATA = [];
+try {
+	const data = readFileSync(join(__dirname, 'evs.json'), 'utf8');
+	EV_DATA = JSON.parse(data);
+} catch (e) {
+	console.warn('Warning: Could not load evs.json', e.message);
+}
 app.use(helmet());
 app.use(morgan('tiny'));
 app.use(express.json({ limit: '2mb' }));
@@ -74,6 +85,14 @@ app.post('/api/chat', async (req, res) => {
 app.get('/', (req, res) => res.json({ ok: true, service: 'EV Backend', time: Date.now() }));
 
 app.get('/api/health', (req,res)=> res.json({ ok: true, time: Date.now() }));
+
+// EV data endpoint (fallback for frontend if frontend fetch fails)
+app.get('/api/evs', (req, res) => {
+	if (!EV_DATA || EV_DATA.length === 0) {
+		return res.status(503).json({ error: 'EV data not available' });
+	}
+	res.json(EV_DATA);
+});
 
 // 404 for any other routes
 app.use((req, res) => {
