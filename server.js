@@ -47,13 +47,34 @@ function rateLimit(ip) {
 	return true;
 }
 
+// Session-based authentication for chat: store authenticated IPs
+const authenticatedSessions = new Map();
+function isSessionAuth(ip) {
+	if (!authenticatedSessions.has(ip)) return false;
+	const { expiry } = authenticatedSessions.get(ip);
+	if (Date.now() > expiry) {
+		authenticatedSessions.delete(ip);
+		return false;
+	}
+	return true;
+}
+function markSessionAuth(ip) {
+	authenticatedSessions.set(ip, { expiry: Date.now() + 3600000 }); // 1 hour session
+}
+
 app.post('/api/chat', async (req, res) => {
 	if (!rateLimit(req.ip)) return res.status(429).json({ error: 'Too many requests' });
 	if (!OPENROUTER_API_KEY) return res.status(500).json({ error: 'Server not configured' });
 	
-	// Validate chat password
+	// Check if password provided OR session already authenticated
 	const { password } = req.body || {};
-	if (!password || password !== CHAT_PASSWORD) {
+	const isAuth = isSessionAuth(req.ip);
+	
+	if (password && password === CHAT_PASSWORD) {
+		// Password correct - mark session as authenticated
+		markSessionAuth(req.ip);
+	} else if (!isAuth) {
+		// No valid password and no existing session
 		return res.status(401).json({ error: 'Unauthorized: Invalid or missing password' });
 	}
 	
