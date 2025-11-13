@@ -26,6 +26,7 @@ const corsOptions = FRONTEND_ORIGIN
 app.use(cors(corsOptions));
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+const CHAT_PASSWORD = process.env.CHAT_PASSWORD ; // Default password if not set in .env
 if (!OPENROUTER_API_KEY) {
 	console.warn('Warning: OPENROUTER_API_KEY not set. /api/chat will return 500.');
 }
@@ -46,6 +47,13 @@ function rateLimit(ip) {
 app.post('/api/chat', async (req, res) => {
 	if (!rateLimit(req.ip)) return res.status(429).json({ error: 'Too many requests' });
 	if (!OPENROUTER_API_KEY) return res.status(500).json({ error: 'Server not configured' });
+	
+	// Validate chat password
+	const { password } = req.body || {};
+	if (!password || password !== CHAT_PASSWORD) {
+		return res.status(401).json({ error: 'Unauthorized: Invalid or missing password' });
+	}
+	
 	try {
 		const { messages = [], model = 'openrouter/auto', temperature = 0.4 } = req.body || {};
 		const systemPrompt = 'You are a brief EV specialist assistant. Answer in 1-2 sentences maximum. Only provide more detail if the user explicitly asks for it. Focus on range, charging, efficiency, battery chemistry, and comparisons. Be direct and concise.';
