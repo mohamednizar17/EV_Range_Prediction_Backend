@@ -26,9 +26,12 @@ const corsOptions = FRONTEND_ORIGIN
 app.use(cors(corsOptions));
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const CHAT_PASSWORD = process.env.CHAT_PASSWORD ; // Default password if not set in .env
+const CHAT_PASSWORD = process.env.CHAT_PASSWORD;
 if (!OPENROUTER_API_KEY) {
 	console.warn('Warning: OPENROUTER_API_KEY not set. /api/chat will return 500.');
+}
+if (!CHAT_PASSWORD) {
+	console.warn('Warning: CHAT_PASSWORD not set in .env. Chat endpoint will return 401.');
 }
 
 // Simple in-memory rate limiter: 60 requests per minute per IP
