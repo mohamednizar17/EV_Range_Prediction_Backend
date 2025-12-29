@@ -21,7 +21,7 @@ app.use(morgan('tiny'));
 app.use(express.json({ limit: '2mb' }));
 const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN;
 const corsOptions = FRONTEND_ORIGIN
-	? { origin: [FRONTEND_ORIGIN, 'null'], methods: ['POST','GET','OPTIONS'], credentials: false }
+	? { origin: [FRONTEND_ORIGIN, 'null', 'http://localhost:5500', 'http://127.0.0.1:5500'], methods: ['POST','GET','OPTIONS'], credentials: false }
 	: { origin: true, methods: ['POST','GET','OPTIONS'] };
 app.use(cors(corsOptions));
 
