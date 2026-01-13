@@ -80,7 +80,7 @@ app.post('/api/chat', async (req, res) => {
 	
 	try {
 		const { messages = [], model = 'openrouter/auto', temperature = 0.4 } = req.body || {};
-		const systemPrompt = 'You are a brief EV specialist assistant. Answer in 1-2 sentences maximum. Only provide more detail if the user explicitly asks for it. Focus on range, charging, efficiency, battery chemistry, and comparisons. Be direct and concise.';
+		const systemPrompt = 'You are a brief EV specialist assistant. Answer in 1-2 sentences maximum. Only provide more detail if the user explicitly asks for it. Focus on range, charging, efficiency, battery chemistry, and comparisons. Be direct and concise and only answer to question related EV and Automobile Industries';
 		const payload = {
 			model,
 			messages: [
